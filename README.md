@@ -1,37 +1,169 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 
-You can use the [editor on GitHub](https://github.com/ksecrest/ksecrest.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    <!-- <style> h1 {color: lawngreen;
+        text-decoration: underline; }
+        </style> -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+     
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="Styles/indexstyles.css">
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+   
+    
+</head>
+<body>
+    <!-- <h1 style= "color: blue;">HI there from html</h1> -->
 
-**Bold** and _Italic_ and `Code` text
+    <!-- <h1>HI there from html</h1>
+    <h1>HI from html again</h1>
 
-[Link](url) and ![Image](src)
-```
+     -->
+    <!-- <h1>Homepage</h1>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <p>hey there budddy</p> -->
 
-### Jekyll Themes
+    
+    <div class="navigation-wrapper">
+     
+        <div class="cp-logo-wrapper">
+            <div class="cp-logo">
+                <img src="images/logos/Codepen.io_logo.png" alt="Codepen Logo">
+                <!-- <a href="codepenindex.html" >Codepen</a> -->
+            </div>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ksecrest/ksecrest.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        
+        <div class="link-wrapper">
+            <div class="pens-link">
+                <div class="explore">
+                    explore
+                </div>
+                <div class="pens">
+                    <a href="pens.html">
+                        Pens
+                    </a>
+                </div>
+            </div>  
 
-### Support or Contact
+            <div class="link">
+                <div class="projects-link">
+                    <a href="projects.html">Projects</a>
+                </div>
+            </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            <div class="link">
+                <div class="posts-link">
+                    <a href="posts.html">Posts</a>
+                </div>
+            </div>
+
+            <div class="link">
+                <div class="collections-link">
+                    <a href="collections.html" >Collections</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="spark-link-wrapper">
+            <a href="spark.html">Spark
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+        
+        
+    
+        <div class="button-wrapper">
+
+            <button class="create-button">
+                <a href="pens.html">
+                    Create
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </button>
+
+             <div class="search-icon">
+                <i class="fas fa-search"></i>
+             </div>
+
+            <button class="login-button">
+                <a href="login.html">Log In</a>
+            </button>
+
+            <button class="signup-button">
+                <a href="signup.html">Sign Up</a>
+            </button>
+
+        
+           
+        </div>  
+    </div>
+
+    
+    <div class="mainpage-content-wrapper">
+        <div class="left-column-mainpage-wrapper">
+            <div class="paragraphs-wrapper">
+                <h1>CodePen is a <span style="font-weight: 900;"> social development environment </span> for front-end designers and developers. &#128075; </h1>
+
+                <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+            </div>
+
+            <div class="big-button-wrapper">
+                <div class="big-green-signup-button">
+                    <a href="signup.html">Sign Up for Free</a>
+                </div>
+    
+                <div class="big-black-learnmore-button">
+                    <a href="collections.html">Learn More</a>
+                </div>
+            </div>
+        </div>   
+
+        
+        
+        <div class="right-column-mainpage-wrapper">
+            <div class="text-above-screenshot">
+                <p>This is <span style="color: #76daff;">CodePen Projects</span>!</p>
+            </div>
+
+            <div class="screenshot">
+                <img class="projects-screenshot" src="https://web.archive.org/web/20180401001151im_/https://static.codepen.io/assets/home/projects-screenshot-467e7f59383af0f15a7800660f84cf9544837140d29f8f6336099799dd32afd7.png" alt="Projects screenshot">
+            </div>
+
+        </div>
+
+    </div>
+    
+   
+    <div class="footer-wrapper">
+        <div class="footer">
+            <a href="teams.html">CodePen for <span style="font-family: 'Alatsi', sans-serif; font-size: 20px;"> TEAMS</span></a>
+        </div>
+
+        <div class="footer">
+            <a href="education.html">Codepen for <span style="font-family: 'Alatsi', sans-serif; font-size: 20px;"> EDUCATION</span></a>  
+        </div>  
+        
+        <div class="footer">
+            <a href="privacy.html">Codepen for <span style="font-family: 'Alatsi', sans-serif; font-size: 20px;"> PRIVACY</span></a>
+        </div>
+
+        <div class="footer">
+            <a href="writing.html">Codepen for <span style="font-family: 'Alatsi', sans-serif; font-size: 20px;"> WRITING</span></a>
+        </div>
+    </div>
+    
+</body>
+</html>                     
